@@ -35,12 +35,6 @@
   z-index: 10;
 }
 
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-}
-
 .header__title {
   align-self: center;
   width: 730px;
@@ -80,6 +74,9 @@
 }
 
 .header__square-pic {
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
   position: absolute;
   top: 64px;
   right: 0;
