@@ -1,10 +1,3 @@
-/* Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -26,6 +19,7 @@
   background-color: #f2f2f2;
   position: relative;
   display: flex;
+  z-index: 1;
 }
 
 .logo_place_header {
@@ -37,7 +31,7 @@
 
 .header__title {
   align-self: center;
-  width: 730px;
+  max-width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
@@ -45,15 +39,12 @@
   z-index: 10;
 }
 
-.header__subtitle-wrapper {
+.header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
   z-index: 15;
-  width: 338px;
-}
-
-.header__subtitle {
+  max-width: 338px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -62,6 +53,7 @@
 .header__subtitle-link {
   color: #2f80ed;
   text-decoration: none;
+  display: block;
 }
 
 .header__main-illustration {
@@ -70,7 +62,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 10;
+  z-index: -1;
 }
 
 .header__square-pic {
@@ -80,6 +72,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: -2;
 }
 
 /* --- Description section --- */
@@ -106,6 +99,8 @@
   font-size: 18px;
   font-weight: normal;
   width: 175px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .two-columns__main-text {
@@ -116,6 +111,7 @@
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
+  margin-top: 0;
   margin-bottom: 30px;
   display: block;
 }
@@ -166,6 +162,7 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  list-style-type: none;
 }
 
 .table__heading {
@@ -183,7 +180,7 @@
 /* --- Feynman section --- */
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
@@ -226,14 +223,18 @@
   padding-bottom: 90px;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
   width: 877px;
   height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
+  z-index: -1;
 }
 
 /* Elements with key-value modifiers for dark theme */
@@ -292,6 +293,7 @@
 .footer__column-heading {
   line-height: 45px;
   font-size: 18px;
+  margin: 0;
 }
 
 .footer__column-links {
@@ -304,23 +306,21 @@
   text-decoration: none;
   color: white;
   display: block;
-}
-
-.footer__social-icon-wrapper {
-  margin-top: 20px;
+  list-style-type: none;
 }
 
 .footer__social-icon {
   line-height: 30px;
   font-size: 18px;
+  margin: 0;
 }
 
-.footer__social-icon_facebook:before {
+.footer__social-icon_type_facebook:before {
   content: url(../images/facebook_color_white.svg);
   padding-right: 10px;
 }
 
-.footer__social-icon_instagram:before {
+.footer__social-icon_type_instagram:before {
   content: url(../images/instagram_color_white.svg);
   padding-right: 10px;
 }
