@@ -2,7 +2,7 @@
 
 ## Project description
 
-This is my first Web Project for the Practicum Web Development program. It's a web page called 'Learning how to learn' that provides useful tips and facts on learning techniques. The page is created with only HTML and CSS (Flexbox), and the BEM methodology has been applied to structure both CSS and project files.
+This is my first Web Project for the Practicum Web Development bootcamp. It's a web page called 'Learning how to learn' that provides useful tips and facts on learning techniques. The page is created with only HTML and CSS (Flexbox), and the BEM methodology has been applied to structure both CSS and project files.
 
 Used technologies:
 
