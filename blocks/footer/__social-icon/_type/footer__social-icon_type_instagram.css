@@ -1,0 +1,4 @@
+.footer__social-icon_type_instagram:before {
+  content: url(../images/instagram_color_white.svg);
+  padding-right: 10px;
+}
