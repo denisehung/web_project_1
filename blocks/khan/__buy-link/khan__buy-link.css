@@ -3,6 +3,7 @@
   font-size: 30px;
   color: #2f80ed;
   margin: 0;
+  align-self: start;
   text-decoration: none;
   transition: opacity 0.3s linear;
 }

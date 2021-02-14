@@ -4,4 +4,9 @@
   text-decoration: none;
   color: white;
   display: block;
+  transition: opacity 0.3s linear;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }
