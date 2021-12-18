@@ -6,7 +6,7 @@ This is my first Web Project for the Practicum Web Development bootcamp. It's a 
 
 ## [**View live project**](https://denisehung.github.io/web_project_1/) :rocket:
 
-Used technologies:
+## Technologies
 
 - HTML
 - CSS
