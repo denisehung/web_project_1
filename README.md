@@ -2,14 +2,16 @@
 
 ## Project description
 
-This is my first Web Project for the Practicum Web Development bootcamp. It's a web page called 'Learning how to learn' that provides useful tips and facts on learning techniques. The page is created with only HTML and CSS (Flexbox), and the BEM methodology has been applied to structure both CSS and project files.
+This is my first Web Project for the Practicum Web Development bootcamp. It's a basic non-responsive web page called 'Learning how to learn' that provides useful tips and facts on learning techniques. The page is created with only HTML and CSS (including Flexbox and CSS animations), and the BEM methodology has been applied to structure both CSS and project files.
+
+## [**View live project**](https://denisehung.github.io/web_project_1/) :rocket:
 
 Used technologies:
 
-1. HTML
-2. CSS
-3. Flexbox
-4. BEM
+- HTML
+- CSS
+- Flexbox
+- BEM
 
 ## Plans for finalizing the project
 
@@ -17,3 +19,15 @@ Used technologies:
 - Adding my favorite educational videos
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes
 - Designing a form that allows users to submit a comment
+
+## Getting started
+
+```bash
+# Clone repository
+$ git clone https://github.com/denisehung/web_project_1.git
+# Navigate to project directory
+$ cd web_project_1
+```
+
+## Images
+![Image](images/learning-how-to-learn.gif)
